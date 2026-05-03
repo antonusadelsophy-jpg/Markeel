@@ -3,13 +3,23 @@ body{
 .x { 
   color:red;
   background-image:url(an.jpg);
-  background-size:contain;
-  background-position:right top;
-  width:auto;
-  height: 150px;
+   background-size:contain;
+    background-position:right top;
+  width:100%;
+  height:150px;
   font-family: cairo;
-  font-size: ;
- 
+   }
+  .l{
+   color:red;
+  background:#0021ab;
+  width:100%;
+  height:60px;
+  display:block;
+  margin: 10px;
+  padding: 10px 15px;
+  text-align:center;
+  text-decoration: none;
+  border-radius: 5px;
   }
   .z{
   color:brown;
@@ -25,6 +35,10 @@ color:green;
 font-weight:bolder;
 font-size:18px;
 text-align:right;
+direction:right;
+}
+.ar{
+  height:.2px;
 }
 .h3{ background-color:green;
   color:red;
@@ -124,9 +138,11 @@ cover
 }
 .a1{ display:block;
   margin: 10px;
+  width:100%;
   padding: 10px 15px;
   background:#25D366;
   color:red;
+  text-align:center;
   text-decoration: none;
   border-radius: 5px;
 }
