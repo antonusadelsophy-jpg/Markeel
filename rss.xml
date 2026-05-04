@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+    <title>Markeel Art</title>
+    <link>https://antonusadelsophy-jpg.github.io/Markeel-art/</link>
+    <description>موقع لوحات فنية وبيع أعمال فنية</description>
+    <language>ar-eg</language>
+
+    <item>
+        <title>لوحة فنية جديدة</title>
+        <link>https://antonusadelsophy-jpg.github.io/Markeel-art/</link>
+        <description>لوحة فنية مميزة للبيع الآن</description>
+        <pubDate>Mon, 04 May 2026 12:00:00 GMT</pubDate>
+    </item>
+
+</channel>
+</rss>
