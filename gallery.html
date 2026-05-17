@@ -16,12 +16,13 @@ body {
 
 /* Navbar */
 .navbar {
-    background: #000;
+    background:#0000007d;
     padding: 15px;
+    border-radius:200px;
     text-align: center;
 }
 .navbar a {
-    color: white;
+    color:#00efe2;
     margin: 0 15px;
     text-decoration: none;
     font-size: 18px;
@@ -99,6 +100,45 @@ button:hover {
   cursor:pointer;
 
 }
+
+/* الصندوق */
+.slider{
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+    box-shadow: 0 0 30px #00ff;
+    margin-left:35px;
+    background-size: cover;
+    background-position: center;
+    animation: slide 20s linear infinite;
+  animation-delay:1s;
+}
+
+/* الحركة */
+@keyframes slide{
+
+    0%{
+        background-image: url("images/an6.jpg");
+    }
+
+    25%{
+        background-image: url("images/a2.jpg");
+    }
+    40%{
+        background-image: url("images/an5.jpg");
+    }
+
+    50%{
+        background-image: url("images/a7.jpg");
+    }
+
+    75%{
+        background-image: url("images/a5.jpg");
+    }
+
+    100%{
+        background-image: url("images/an1.jpg");
+    }
 </style>
 
 </head>
@@ -111,12 +151,13 @@ button:hover {
 </div>
 
 <h1>🎨 معرض اللوحات</h1>
+<div class="slider"></div>
 
 <div class="gallery">
 
     <!-- لوحة 1 -->
     <div class="card">
-        <img src="as.png" alt="لوحة غروب الشمس">
+        <img src="images/as.png" alt="لوحة غروب الشمس">
         <div class="info">
             <h3>غروب الشمس</h3>
             <p class="price">500 جنيه</p>
@@ -126,7 +167,7 @@ button:hover {
 
     <!-- لوحة 2 -->
     <div class="card">
-        <img src="an5.jpg" alt="لوحة كرتونية">
+        <img src="images/an5.jpg" alt="لوحة كرتونية">
         <div class="info">
             <h3>رسومات كرتونية</h3>
             <p class="price">499 جنيه</p>
@@ -136,7 +177,7 @@ button:hover {
 
     <!-- لوحة 3 -->
     <div class="card">
-        <img src="an1.jpg" alt="لوحة عصفور">
+        <img src="images/an1.jpg" alt="لوحة عصفور">
         <div class="info">
             <h3>لوحة عصفور</h3>
             <p class="price">499 جنيه</p>
